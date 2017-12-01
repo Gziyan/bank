@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: .14rem; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+ul, li, ol {
+  list-style: none; }
+
+html {
+  font-size: 625%; }
+
+.box {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: .4rem;
+  background: #fff;
+  display: flex; }
+  header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2; }
+    header a:nth-child(1) {
+      justify-content: flex-start;
+      flex: 5; }
+      header a:nth-child(1) img {
+        width: 70%; }
+    header a:nth-child(2) i {
+      font-size: .25rem; }
+
+section {
+  background-color: #ccc;
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll; }
+  section .bannerSwiper img {
+    width: 100%; }
+  section .cen {
+    background-color: #fff; }
+    section .cen li {
+      width: 98%;
+      margin-left: 1%;
+      padding: .05rem 0;
+      display: flex; }
+      section .cen li:nth-child(1) {
+        border-bottom: 1px dashed #666; }
+      section .cen li p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        word-break: break-all;
+        width: 75%;
+        font-size: .12rem; }
+        section .cen li p i {
+          padding: 0 .05rem; }
+        section .cen li p .ones {
+          color: #f17776; }
+        section .cen li p .twos {
+          color: #0cabe2; }
+      section .cen li time {
+        width: 25%;
+        font-size: .12rem;
+        color: #979998; }
+  section .center {
+    margin-top: .05rem;
+    font-size: .16rem;
+    text-align: center;
+    padding: .1rem 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc; }
+  section .list {
+    padding: .05rem 0;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    section .list a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: .05rem 0;
+      flex-direction: column;
+      width: 23%;
+      marin: 0 1%; }
+      section .list a img {
+        width: .5rem; }
+      section .list a p {
+        text-align: center;
+        width: 5em;
+        height: 2.2em; }
+
+/*# sourceMappingURL=style.css.map */
